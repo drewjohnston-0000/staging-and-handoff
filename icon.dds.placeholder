@@ -1,0 +1,16 @@
+# Staging & Handoff Icon Placeholder
+# 
+# For the actual mod, this should be a 512x512 DDS file
+# Create icon.dds using GIMP or similar tool with DDS export support
+#
+# Icon design suggestions:
+# - Traffic cone with checkered flag
+# - Tractor silhouette with location pin
+# - Staging area symbol (parking/waypoint marker)
+#
+# DDS Format: DXT5 with mipmaps
+# Resolution: 512x512 pixels
+# Background: Transparent or themed to match FS25 aesthetic
+
+# This is just a placeholder to satisfy modDesc.xml reference
+# Replace with actual icon.dds before release

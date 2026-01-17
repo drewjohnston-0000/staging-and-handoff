@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^lua test_runner\\.lua$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}

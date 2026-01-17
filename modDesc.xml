@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="86">
+    <author>Drew Johnston</author>
+    <version>0.1.0</version>
+    <title>
+        <en>Staging &amp; Handoff</en>
+    </title>
+    <description>
+        <en><![CDATA[AI Logistics Management for Farming Simulator 25
+
+Adds realistic staging zones for AI vehicle delivery, reducing AI failures and improving the farm manager experience.
+
+Features:
+- Player-defined staging zones for safe AI destinations
+- Automatic vehicle classification and compatibility routing
+- Clean failure handling with notifications
+- Zero micromanagement logistics]]></en>
+    </description>
+    
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    
+    <extraSourceFiles>
+        <sourceFile filename="src/StagingAndHandoff.lua"/>
+    </extraSourceFiles>
+    
+    <actions>
+        <action name="SAH_CREATE_STAGING_POINT" category="VEHICLE" axisType="HALF"/>
+        <action name="SAH_DELIVERY_MENU" category="VEHICLE" axisType="HALF"/>
+    </actions>
+    
+    <inputBinding>
+        <actionBinding action="SAH_CREATE_STAGING_POINT">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_s"/>
+        </actionBinding>
+        <actionBinding action="SAH_DELIVERY_MENU">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_d"/>
+        </actionBinding>
+    </inputBinding>
+</modDesc>
